@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import { toast } from "react-toastify";
 import { AdminLoginAPI } from "../Service/allAPI";
-import homeImg from "../assets/home.jpg"; // using same hero image for consistency
+import homeImg from "../assets/home.jpg";
 
 const AdminLogin = () => {
     const [data, setData] = useState({ email: "", password: "" });
