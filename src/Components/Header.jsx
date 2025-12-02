@@ -15,6 +15,7 @@ const Header = () => {
             <Link to={'/courses'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(65, 144, 115)'}}>Academics</Link>
             <Link to={'/admission'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(65, 144, 115)'}}>Admission</Link>
             <Link to={'/contact'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(65, 144, 115)'}}>Contact</Link>
+            <Link to={'/login'} className=' text-decoration-none fw-bold highlight contents' style={{color:'rgb(65, 144, 115)'}}>Admin</Link>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
